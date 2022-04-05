@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice02</title>
+</head>
+<body>
+    <from>
+        고객명: <br><input type="text" name="student_name"><br>
+        전화번호: <br><input type="text" name="student_id"><br>
+        E-mail: <br><input type="text" name="department"><br>
+
+    </from>
+    <p>
+        <label for="pizza">피자선택 : </label>
+        <select name="pizza" id="pizza">
+            <option value="default">피자를 선택하세요.</option>
+            <option value="1">1. 치즈 퐁듀 파이어 미트</option>
+            <option value="2">2. 블록버스터4</option>
+            <option value="3">3. 글로벌 레전드4</option>
+            <option value="4">4. 블랙앵거스 스테이크</option>
+            <option value="4">5. 베스트 콰트로</option>
+            <option value="4">6. 블랙타이거 슈림프</option>
+            
+        </select>
+    </p>
+    <fieldset>
+        <legend>피자 사이즈</legend>
+        <input type="radio" name="Small" >Small<br><br>
+
+
+        <input type="radio" name="Medium" >Medium<br><br>
+
+        <input type="radio" name="Large" >Large<br><br>
+
+    </fieldset>
+<p>
+    <fieldset>
+        <legend>토핑 선택</legend>
+
+        <input type="checkbox" name="베이컨" >베이컨<br></br>
+
+        <input type="checkbox" name="치즈" >치즈<br><br>
+
+        <input type="checkbox" name="양파" >양파<br><br>
+ 
+        <input type="checkbox" name="버섯" >버섯<br><br>
+
+    </fieldset>
+</p>
+    <p>
+        <label for="pizza">희망배송시간 :</label>
+        <input type="time" name="startday">
+    </p>
+    <form>
+        <label for="pizza">배송시 요청사항 :</label> 
+        <form action="./action2.php" method="get">
+            <textarea name="option" cols="30" rows="5"></textarea>
+           
+        </form>
+    </p>
+    <button>주문하기
+    </button>
+</body>
+</html>
