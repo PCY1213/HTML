@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <form action="./action.php" mothod="get">
+    <fieldset>
+        <legend>납품자 정보</legend>
+  <ol>
+    <li>납품자 명: <input type="text" name="납품자 명"><br></li></br>
+    <li>email: <input placeholder="answer@naver.com"><br></li></br>
+    <li>홈페이지: <input type="url" name="홈페이지" value="http://"><br></li></br>
+    <li>지역:  <select name="text" id="text">
+        <option value="default">부산</option>
+        <option value="1"> 서울</option><br></li></br>
+        <option value="1"> 대전</option><br></li></br>
+        <option select value="1"> 대구</option><br></li></br>
+    </select>
+
+  </ol>
+  </fieldset>
+   </form>
+   <form action="./action.php" mothod="get">
+    <fieldset>
+        <legend>납품 정보</legend>
+  <ul>
+    <li>상품명 : <input type="text" name="상품명"><br></li></br>
+    <li>납품 수량 : <input placeholder="최소 100"><br></li></br>
+    <li>기타사항 : <form>
+        <form action="./action2.php" method="get">
+            <textarea name="option" cols="30" rows="5"></textarea>
+            <br></li></br>
+    
+        </form>
+        
+    
+
+  </ul>
+  </fieldset>
+   </form>
+</p>
+<button>send message
+</button>
+</body>
+
+</html>
